@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.title {
+    font-family: "Crimson Text", sans-serif;
+    background-image: url(background.jpg);
+    color: white;
+    height: 10vh;
+    padding: 20px;
+    font-size: 40px;
+
+}
+
+ul a:hover {
+    background-color: rgb(18, 1, 1);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+
+}
+
+.left-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.element {
+    display: flex;
+
+    padding-left: 7px;
+    gap: 30px;
+    list-style: none;
+
+
+
+}
+
+.text {
+    margin-top: 5px;
+    font-family: "Noto Sans", sans-serif;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.right-nav {
+    padding-right: 8px;
+    ;
+}
+
+.box1 {
+    padding: 5px;
+    background-color: rgb(224, 224, 224);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left1 {
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+pre b {
+    font-size: 18px;
+}
+
+.right1 {
+    padding: 5px;
+    display: flex;
+}
+
+.info1 {
+    height: 400px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.info2 {
+    height: 400px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.info3 {
+    height: 195px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.info4 {
+    height: 195px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 7px;
+    grid-column: 3;
+}
+
+.box2 {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 450px 230px 100px;
+    grid-template-rows: 200px 200px;
+}
+
+#b1 {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#b2 {
+    width: 150px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+#b2:hover {
+    color: whitesmoke;
+    background-color: black;
+
+    #b1 {
+        background-color: whitesmoke;
+        color: black;
+    }
+}
+
+.info {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -2px 0px 3px 0px rgb(8 2 2);
+    margin-top: 210px;
+    margin-left: 25px;
+
+}
+
+.image_info {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    padding-top: 20p;
+    padding-left: 25px;
+    font-family: poppins, sans-serif;
+}
+
+.news_icon {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.image_info2 {
+    color: rgb(252, 252, 252);
+    font-family: poppins, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 7px;
+}
+
+.date1 {
+    display: flex;
+
+}
+
+.calander {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+.date2 {
+    display: flex;
+
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_2 {
+    height: 30px;
+    width: 60px;
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -2px 0px 3px 0px rgb(8 2 2);
+    margin-top: 200px;
+    margin-left: 10px;
+
+}
+
+.image_info_2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: poppins, sans-serif;
+}
+
+.news_icon_2 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.image_info2_2 {
+    color: white;
+    font-family: poppins, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+.date1_2 {
+    display: flex;
+
+}
+
+.calander_2 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.date2_2 {
+    display: flex;
+
+}
+
+.btn_3 {
+    background-color: rgb(33, 33, 33);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -2px 0px 3px 0px rgb(8 2 2);
+    height: 27px;
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.image_info_3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: poppins, sans-serif;
+}
+
+.news_icon_3 {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.image_info2_3 {
+    color: white;
+    font-family: poppins, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+.date1_3 {
+    display: flex;
+
+}
+
+.calander_3 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+.date2_3 {
+    display: flex;
+
+}
+
+.s1 {
+    background-color: rgb(246, 246, 246);
+    margin: 2px;
+    padding: 4px;
+    height: 80px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.img {
+
+    padding-top: 5px;
+    border-radius: 8px;
+}
+
+.side_text {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
+    width: 200px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.side_text2 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding-left: 9px;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.cal_img {
+    float: left;
+    padding-left: 20px;
+}
+
+.s1:hover {
+    background-color: rgb(185, 200, 213);
+}
+
+.s2:hover {
+    background-color: rgb(185, 200, 213);
+}
+
+.info2:hover {
+    transform: scaleY(1.3);
+    transform: scaleX(1.05);
+}
+
+.info1:hover {
+    transform: scaleY(1.3);
+    transform: scaleX(1.05);
+}
+
+.info3:hover {
+    transform: scaleY(1.3);
+    transform: scaleX(1.05);
+}
+
+.info4:hover {
+    transform: scaleY(1.3);
+    transform: scaleX(1.05);
+}
+
+
+.s2 {
+
+    background-color: rgb(246, 246, 246);
+    margin: 2px;
+    padding: 4px;
+    height: 80px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.news {
+    height: 61vh;
+    overflow-y: scroll;
+}
+
+.content {
+    height: 300px;
+    width: 450px;
+    background-color: rgb(225, 223, 223);
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin: 2px solid black;
+    display: none;
+}
+
+#closeButton {
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: 126px;
+    left: 192px;
+
+
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+    font-family: "Crimson Text", sans-serif;
+    text-align: center;
+
+}
+
+.popup1 {
+    font-family: "Crimson Text", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
